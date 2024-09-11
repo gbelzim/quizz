@@ -1,8 +1,8 @@
-const nomes = ["Fernanda", "Giuliana", "Maria Eduarda", "Marcelo", "Amanda", "Gustavo", "Gabriel"];
+const nomes = ["Matue", "indio flecha torta pussy da silva muxa", "Leandro mussum", "Carl Johnson", "Seu Madroga", "Amostradinho (madito)", "cristiano da silva sauro pinto alcantra caicique classico jorge do pneu broxa azulzinho vencido da rosa vulgo tadala junior"];
 
 export function aleatorio (lista){
-    const posicao = Math.floor(Math.random()* lista.lenght);
-     return lista[posicao];
-     }
+    const posicao = Math.floor(Math.random()* lista.length);
+    return lista[posicao];
+}
 
 export const nome = aleatorio(nomes)
